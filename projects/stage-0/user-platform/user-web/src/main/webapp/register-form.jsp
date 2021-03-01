@@ -12,16 +12,15 @@
               <legend class="">Register</legend>
             </div>
             <div class="control-group">
-              <!-- Username -->
-              <label class="control-label"  for="username">Username</label>
+              <!-- Name -->
+              <label class="control-label"  for="name">Name</label>
               <div class="controls">
-                <input type="text" id="username" name="username" placeholder="Username" class="input-xlarge">
-                <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+                <input type="text" id="name" name="name" placeholder="name" class="input-xlarge">
               </div>
             </div>
 
             <div class="control-group">
-              <!-- E-mail -->
+              <!-- Email -->
               <label class="control-label" for="email">E-mail</label>
               <div class="controls">
                 <input type="text" id="email" name="email" placeholder="Email" class="input-xlarge">
@@ -30,11 +29,11 @@
             </div>
 
             <div class="control-group">
-              <!-- Cell Phone -->
-              <label class="control-label"  for="cell_phone">Cell Phone</label>
+              <!-- phoneNumber -->
+              <label class="control-label"  for="phoneNumber">Phone Number</label>
               <div class="controls">
-                <input type="cell_phone" id="cell_phone" name="cell_phone" placeholder="Cell Phone" class="input-xlarge">
-                <p class="help-block">Please provide your cell phone</p>
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" class="input-xlarge">
+                <p class="help-block">Please provide your Phone Number</p>
               </div>
             </div>
 
