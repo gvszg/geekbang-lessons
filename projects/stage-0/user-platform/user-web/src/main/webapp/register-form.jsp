@@ -6,7 +6,7 @@
 <body>
 	<div class="container-lg">
 		<!-- Content here -->
-		<form class="form-horizontal" action='' method="POST">
+		<form class="form-horizontal" action="/register" method="POST">
           <fieldset>
             <div id="legend">
               <legend class="">Register</legend>
