@@ -15,7 +15,7 @@
               <!-- Name -->
               <label class="control-label"  for="name">Name</label>
               <div class="controls">
-                <input type="text" id="name" name="name" placeholder="name" class="input-xlarge">
+                <input type="text" id="name" name="name" placeholder="name" required class="input-xlarge">
               </div>
             </div>
 
@@ -23,8 +23,7 @@
               <!-- Email -->
               <label class="control-label" for="email">E-mail</label>
               <div class="controls">
-                <input type="text" id="email" name="email" placeholder="Email" class="input-xlarge">
-                <p class="help-block">Please provide your E-mail</p>
+                <input type="text" id="email" name="email" placeholder="Email" required class="input-xlarge">
               </div>
             </div>
 
@@ -32,8 +31,7 @@
               <!-- phoneNumber -->
               <label class="control-label"  for="phoneNumber">Phone Number</label>
               <div class="controls">
-                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" class="input-xlarge">
-                <p class="help-block">Please provide your Phone Number</p>
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required class="input-xlarge">
               </div>
             </div>
 
@@ -41,10 +39,10 @@
               <!-- Password-->
               <label class="control-label" for="password">Password</label>
               <div class="controls">
-                <input type="password" id="password" name="password" placeholder="Password" class="input-xlarge">
-                <p class="help-block">Password should be at least 4 characters</p>
+                <input type="password" id="password" name="password" placeholder="Password" required class="input-xlarge">
               </div>
             </div>
+            <hr />
 
             <div class="control-group">
               <!-- Button -->
