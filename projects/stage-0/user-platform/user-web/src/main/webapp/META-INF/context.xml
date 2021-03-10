@@ -20,7 +20,7 @@
               maxActive="100" maxIdle="30" maxWait="10000"
               username="" password="" 
               driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
-              url="jdbc:derby:/db/user-platform;create=true"/>
+              url="jdbc:derby:/Users/aeroyu/Projects/Study/Training/小馬哥Java實戰/workspace/geekbang-lessons/projects/stage-0/user-platform/db/user-platform;create=true"/>
 
 	<!-- FactoryBean -->
 	<Resource name="bean/DBConnectionManager" auth="Container"
