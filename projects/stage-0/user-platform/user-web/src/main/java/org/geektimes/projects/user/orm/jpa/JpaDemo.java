@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class JpaDemo {
+    private static final String DATABASE_NAME = "/Users/aeroyu/Projects/Study/Training/小馬哥Java實戰/workspace/geekbang-lessons/projects/stage-0/user-platform/db/user-platform";
 
 //    @Resource
 //    private EntityManager entityManager;
@@ -50,7 +51,7 @@ public class JpaDemo {
 
     private static DataSource getDataSource() {
         EmbeddedDataSource dataSource = new EmbeddedDataSource();
-        dataSource.setDatabaseName("/db/user-platform");
+        dataSource.setDatabaseName(DATABASE_NAME);
         dataSource.setCreateDatabase("create");
         return dataSource;
     }
