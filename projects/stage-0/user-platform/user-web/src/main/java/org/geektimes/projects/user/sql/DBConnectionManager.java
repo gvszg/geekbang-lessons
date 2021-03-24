@@ -26,9 +26,9 @@ public class DBConnectionManager { // JNDI Component
     private EntityManager entityManager;
 
 //    public Connection getConnection() {
-//        ComponentContext context = ComponentContext.getInstance();
+//        ComponentContext org.geektimes.context = ComponentContext.getInstance();
 //        // 依赖查找
-//        DataSource dataSource = context.getComponent("jdbc/UserPlatformDB");
+//        DataSource dataSource = org.geektimes.context.getComponent("jdbc/UserPlatformDB");
 //        Connection connection = null;
 //        try {
 //            connection = dataSource.getConnection();
