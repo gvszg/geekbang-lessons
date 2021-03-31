@@ -16,9 +16,13 @@ public class DefaultSubscriber<T> implements Subscriber<T> {
 
     @Override
     public void onNext(Object o) {
-        if (++count > 2) { // 当到达数据阈值时，取消 Publisher 给当前 Subscriber 发送数据
+        System.out.println("[++前計數： " + count + " ]");
+        if (count > 3) { // 当到达数据阈值时，取消 Publisher 给当前 Subscriber 发送数据
             subscription.cancel();
             return;
+        } else {
+            count++;
+            System.out.println("[++後計數： " + count + " ]");
         }
         System.out.println("收到数据：" + o);
     }
