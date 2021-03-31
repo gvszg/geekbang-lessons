@@ -86,3 +86,9 @@ Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
         at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1558)
         ... 51 more        
 ```
+
+## 第四週
+仿照小馬哥的實現 ComponentContext 自動初始化 仿照小馬哥第九堂課的講解實現 ConfigServletRequestListener
+
+## 第五週
+嘗試完成作業一
